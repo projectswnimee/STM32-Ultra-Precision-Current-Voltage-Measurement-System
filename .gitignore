@@ -1,0 +1,45 @@
+# STM32CubeIDE / Eclipse workspace output
+.metadata/
+Debug/
+Release/
+build/
+cmake-build-*/
+*.launch
+*.log
+*.o
+*.obj
+*.d
+*.su
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.cyclo
+*.gcda
+*.gcno
+
+# KiCad generated and backup files
+*-backups/
+*.bak
+*.bck
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+~*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+
+# Local environments and secrets
+.env
+.env.*
+*.pem
+*.key

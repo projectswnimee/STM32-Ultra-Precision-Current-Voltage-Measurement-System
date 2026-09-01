@@ -1,0 +1,44 @@
+name: Bug report
+description: Report a reproducible firmware, hardware, or documentation problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Firmware
+        - Hardware
+        - Measurement / calibration
+        - Documentation
+        - Repository tooling
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Include the expected behavior and the observed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Include hardware revision, range, input conditions, firmware commit, and tool versions.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Attach logs, serial output, datasets, photographs, or instrument readings.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: The test stayed within the documented low-voltage and current limits.
+          required: true

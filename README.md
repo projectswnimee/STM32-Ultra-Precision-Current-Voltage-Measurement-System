@@ -127,4 +127,3 @@ This is a low-voltage educational prototype, not a certified multimeter. Do not 
 ## License
 
 No open-source license has been selected yet. Until the project team agrees on one, the repository contents remain under their existing copyright.
-
