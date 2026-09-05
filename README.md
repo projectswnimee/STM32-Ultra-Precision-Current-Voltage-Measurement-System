@@ -1,7 +1,7 @@
 # STM32 Current & Voltage Measurement System
 
 <p align="center">
-  <img src="docs/assets/prototype-enclosure.jpg" alt="Completed handheld STM32 current and voltage measurement prototype" width="680">
+  <a href="docs/assets/prototype-enclosure.jpg"><img src="docs/assets/prototype-enclosure.jpg" alt="Completed handheld STM32 current and voltage measurement prototype" width="260"></a>
 </p>
 
 <p align="center">
